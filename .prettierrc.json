@@ -1,0 +1,25 @@
+{
+	"semi": true,
+	"singleQuote": true,
+	"quoteProps": "as-needed",
+	"trailingComma": "all",
+	"bracketSpacing": true,
+	"bracketSameLine": false,
+	"arrowParens": "avoid",
+	"htmlWhitespaceSensitivity": "strict",
+	"singleAttributePerLine": false,
+	"overrides": [
+		{
+			"files": "*.component.html",
+			"options": {
+				"parser": "angular"
+			}
+		},
+		{
+			"files": "*.html",
+			"options": {
+				"parser": "html"
+			}
+		}
+	]
+}
