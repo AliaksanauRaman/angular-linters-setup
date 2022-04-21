@@ -9,5 +9,9 @@
 		"focusring",
 		"necolas",
 		"stylelint"
-	]
+	],
+	"stylelint.configFile": ".stylelintrc.json",
+	"stylelint.enable": true,
+	"css.validate": false,
+	"scss.validate": false
 }
