@@ -19,6 +19,8 @@
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
       "rules": {
+				"@angular-eslint/prefer-on-push-component-change-detection": ["error"],
+				"@angular-eslint/no-queries-metadata-property": ["error"],
         "@angular-eslint/directive-selector": [
           "error",
           {
@@ -34,7 +36,13 @@
             "prefix": "app",
             "style": "kebab-case"
           }
-        ]
+        ],
+				"@angular-eslint/pipe-prefix": [
+					"error",
+					{
+						"prefixes": ["app"]
+					}
+				]
       }
     },
     {
