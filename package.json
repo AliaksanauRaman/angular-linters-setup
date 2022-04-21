@@ -6,8 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "lint": "ng lint",
+    "test": "ng test --watch=true",
+		"test:once:without:browser": "ng test --browsers ChromeHeadless --watch=false",
+    "lint:ts:html": "ng lint",
+    "lint:scss": "stylelint \"**/*.scss\"",
     "beautify:code": "prettier --write .\\src\\",
     "lint-staged": "lint-staged",
     "postinstall": "husky install"
