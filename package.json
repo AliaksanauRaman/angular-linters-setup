@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "beautify:code": "prettier --write .\\src\\"
+    "beautify:code": "prettier --write .\\src\\",
+		"postinstall": "husky install"
   },
   "private": true,
   "dependencies": {
