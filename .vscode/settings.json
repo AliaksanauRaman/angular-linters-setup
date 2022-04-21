@@ -3,5 +3,9 @@
 	"[typescript][html][scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
 		"editor.formatOnSave": true
-  }
+	},
+	"cSpell.words": [
+		"devkit",
+		"stylelint"
+	]
 }
